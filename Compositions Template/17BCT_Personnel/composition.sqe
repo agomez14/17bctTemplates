@@ -1,0 +1,6479 @@
+version=52;
+center[]={14656.337,17.91,16714.746};
+class items
+{
+	items=10;
+	class Item0
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=2;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33691406,0.0014381409,17.304688};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CAPTAIN";
+					init="doStop this;";
+					name="ICE_1";
+					description="Icerberg Actual";
+					isPlayable=1;
+				};
+				id=636;
+				type="B_soldier_exp_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6630859,0.0014381409,15.304688};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="LIEUTENANT";
+					init="doStop this;";
+					name="ICE_2";
+					description="Icerberg 2IC";
+					isPlayable=1;
+				};
+				id=637;
+				type="B_officer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+			formation="COLUMN";
+		};
+		id=635;
+	};
+	class Item1
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=14;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-12.336914,0.0014381409,5.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="WAR2SL";
+					description="Warlord 2";
+					isPlayable=1;
+				};
+				id=654;
+				type="B_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-10.336914,0.0014381409,3.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="medic2";
+					description="Warlord 2 Medic";
+					isPlayable=1;
+				};
+				id=655;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-8.3369141,0.0014381409,1.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="WAR21TL";
+					description="Warlord 2-1 Team Lead";
+					isPlayable=1;
+				};
+				id=656;
+				type="B_Soldier_TL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-4.3369141,0.0014381409,-2.6953125};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="WAR21R";
+					description="Warlord 2-1 Rifleman";
+					isPlayable=1;
+				};
+				id=657;
+				type="B_soldier_LAT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.6630859,0.0014381409,-10.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR21AR";
+					description="Warlord 2-1 Autorifleman";
+					isPlayable=1;
+				};
+				id=658;
+				type="B_soldier_AR_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33691406,0.0014381409,-6.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR21GR";
+					description="Warlord 2-1 Grenadier";
+					isPlayable=1;
+				};
+				id=659;
+				type="B_Soldier_GL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={9.6630859,0.0014381409,-16.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR21EX";
+					description="Warlord 2-1 Sapper";
+					isPlayable=1;
+				};
+				id=660;
+				type="B_soldier_exp_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={11.663086,0.0014381409,-18.695313};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR21CL";
+					description="Warlord 2-1 Rifleman(CLS)";
+					isPlayable=1;
+				};
+				id=661;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-6.3369141,0.0014381409,-0.6953125};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="WAR22TL";
+					description="Warlord 2-2 Team Lead";
+					isPlayable=1;
+				};
+				id=662;
+				type="B_Soldier_TL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.3369141,0.0014381409,-4.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="WAR22R";
+					description="Warlord 2-2 Rifleman";
+					isPlayable=1;
+				};
+				id=663;
+				type="B_soldier_LAT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.6630859,0.0014381409,-12.695313};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR22AR";
+					description="Warlord 2-2 Autorifleman";
+					isPlayable=1;
+				};
+				id=664;
+				type="B_soldier_AR_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item11
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6630859,0.0014381409,-8.6953125};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR22GR";
+					description="Warlord 2-2 Grenadier";
+					isPlayable=1;
+				};
+				id=665;
+				type="B_Soldier_GL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item12
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.6630859,0.0014381409,-14.695313};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR22MK";
+					description="Warlord 2-2 Marksman";
+					isPlayable=1;
+				};
+				id=666;
+				type="B_soldier_M_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item13
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={13.663086,0.0014381409,-20.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR22CL";
+					description="Warlord 2-2 Rifleman(CLS)";
+					isPlayable=1;
+				};
+				id=667;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+			formation="COLUMN";
+		};
+		id=653;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="_this setGroupID [_value];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Alpha 2-1";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item2
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=14;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-14.336914,0.0014381409,3.3046875};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="WAR3SL";
+					description="Warlord 3";
+					isPlayable=1;
+				};
+				id=669;
+				type="B_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-12.336914,0.0014381409,1.3046875};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="medic3";
+					description="Warlord 3 Medic";
+					isPlayable=1;
+				};
+				id=670;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-10.336914,0.0014381409,-0.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="WAR31TL";
+					description="Warlord 3-1 Team Lead";
+					isPlayable=1;
+				};
+				id=671;
+				type="B_Soldier_TL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6630859,0.0014381409,-12.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR31AB";
+					description="Warlord 3-1 Ammo Bearer";
+					isPlayable=1;
+				};
+				id=672;
+				type="B_Soldier_A_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.3369141,0.0014381409,-8.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="WAR31MG";
+					description="Warlord 3-1 Machine Gunner";
+					isPlayable=1;
+				};
+				id=673;
+				type="B_HeavyGunner_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.6630859,0.0014381409,-16.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR31GR";
+					description="Warlord 3-1 Grenadier";
+					isPlayable=1;
+				};
+				id=674;
+				type="B_Soldier_GL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-6.3369141,0.0014381409,-4.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR31AT";
+					description="Warlord 3-1 AT Specialist";
+					isPlayable=1;
+				};
+				id=675;
+				type="B_soldier_AT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={9.6630859,0.0014381409,-20.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR31CL";
+					description="Warlord 3-1 Rifleman(CLS)";
+					isPlayable=1;
+				};
+				id=676;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-8.3369141,0.0014381409,-2.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="WAR32TL";
+					description="Warlord 3-2 Team Lead";
+					isPlayable=1;
+				};
+				id=677;
+				type="B_Soldier_TL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.6630859,0.0014381409,-14.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="WAR32AB";
+					description="Warlord 3-2 Ammo Bearer";
+					isPlayable=1;
+				};
+				id=678;
+				type="B_Soldier_A_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33691406,0.0014381409,-10.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="WAR32MG";
+					description="Warlord 3-2 Machine Gunner";
+					isPlayable=1;
+				};
+				id=679;
+				type="B_HeavyGunner_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item11
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.6630859,0.0014381409,-18.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR32GR";
+					description="Warlord 3-2 Grenadier";
+					isPlayable=1;
+				};
+				id=680;
+				type="B_Soldier_GL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item12
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-4.3369141,0.0014381409,-6.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR32AA";
+					description="Warlord 3-2 AA Specialist";
+					isPlayable=1;
+				};
+				id=681;
+				type="B_soldier_AA_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item13
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={11.663086,0.0014381409,-22.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR32CL";
+					description="Warlord 3-2 Rifleman(CLS)";
+					isPlayable=1;
+				};
+				id=682;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+			formation="COLUMN";
+		};
+		id=668;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="_this setGroupID [_value];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Alpha 2-2";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item3
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=9;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-8.3369141,0.0014381409,9.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="LIEUTENANT";
+					init="doStop this;";
+					name="SOAR1";
+					description="114th SOAR Lead";
+					isPlayable=1;
+				};
+				id=691;
+				type="B_engineer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-6.3369141,0.0014381409,7.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="SOAR11P";
+					description="114th SOAR Pilot";
+					isPlayable=1;
+				};
+				id=692;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-4.3369141,0.0014381409,5.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="SOAR11CP";
+					description="114th SOAR Copilot";
+					isPlayable=1;
+				};
+				id=693;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6630859,0.0014381409,-0.6953125};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="ENG1";
+					description="114th SOAR Crew Chief";
+					isPlayable=1;
+				};
+				id=694;
+				type="B_engineer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.6630859,0.0014381409,-4.6953125};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="Medic4";
+					description="114th SOAR Door Gunner";
+					isPlayable=1;
+				};
+				id=695;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.3369141,0.0014381409,3.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="SOAR12P";
+					description="114th SOAR Pilot";
+					isPlayable=1;
+				};
+				id=696;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33691406,0.0014381409,1.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="SOAR12CP";
+					description="114th SOAR Copilot";
+					isPlayable=1;
+				};
+				id=697;
+				type="B_Helipilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.6630859,0.0014381409,-2.6953125};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="ENG2";
+					description="114th SOAR Crew Chief";
+					isPlayable=1;
+				};
+				id=698;
+				type="B_engineer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.6630859,0.0014381409,-6.6953125};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="Medic5";
+					description="114th SOAR Door Gunner";
+					isPlayable=1;
+				};
+				id=699;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+			formation="COLUMN";
+		};
+		id=690;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="_this setGroupID [_value];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Alpha 3-1";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item4
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=7;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-6.3369141,0.0014381409,11.304688};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="LIEUTENANT";
+					init="doStop this;";
+					name="FIGHTER1";
+					description="342nd Flight Lead";
+					isPlayable=1;
+				};
+				id=701;
+				type="B_Pilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.3369141,0.0014381409,7.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="LIEUTENANT";
+					init="doStop this;";
+					name="FIGHTER2";
+					description="342nd Interceptor Pilot";
+					isPlayable=1;
+				};
+				id=702;
+				type="B_Pilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-4.3369141,0.0014381409,9.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="LIEUTENANT";
+					init="doStop this;";
+					name="FIGHTER3";
+					description="342nd Interceptor Pilot";
+					isPlayable=1;
+				};
+				id=703;
+				type="B_Pilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33691406,0.0014381409,5.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="LIEUTENANT";
+					init="doStop this;";
+					name="FIGHTER4";
+					description="342nd CAS Pilot";
+					isPlayable=1;
+				};
+				id=704;
+				type="B_Pilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6630859,0.0014381409,3.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="LIEUTENANT";
+					init="doStop this;";
+					name="FIGHTER5";
+					description="342nd CAS WSO";
+					isPlayable=1;
+				};
+				id=705;
+				type="B_Pilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.6630859,0.0014381409,1.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="LIEUTENANT";
+					init="doStop this;";
+					name="FIGHER6";
+					description="342nd Recon Pilot";
+					isPlayable=1;
+				};
+				id=706;
+				type="B_Pilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.6630859,0.0014381409,-0.6953125};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="LIEUTENANT";
+					init="doStop this;";
+					name="FIGHTER7";
+					description="342nd Recon Observer";
+					isPlayable=1;
+				};
+				id=707;
+				type="B_Pilot_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+			formation="COLUMN";
+		};
+		id=700;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="_this setGroupID [_value];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Alpha 3-2";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item5
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=2;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6630859,0.0014381409,19.304688};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="COLONEL";
+					init="doStop this;";
+					name="MARS1";
+					description="Zeus Game Master(restricted";
+					isPlayable=1;
+				};
+				id=709;
+				type="B_officer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.6630859,0.0014381409,17.304688};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="MAJOR";
+					init="doStop this;";
+					name="MARS2";
+					description="Zeus Game Moderator(restricted)";
+					isPlayable=1;
+				};
+				id=710;
+				type="B_officer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+			formation="COLUMN";
+		};
+		id=708;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="_this setGroupID [_value];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Alpha 3-3";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item6
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={15.663086,0,1.2539063};
+			angles[]={0,3.2288594,0};
+		};
+		id=711;
+		type="tfar_ModuleTaskForceRadioFrequencies";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="tfar_ModuleTaskForceRadioFrequencies_LrFreq";
+				expression="_this setVariable ['LrFreq',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[""45"",""35"",""30"",""55""]";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="tfar_ModuleTaskForceRadioFrequencies_Units";
+				expression="_this setVariable ['Units',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="tfar_ModuleTaskForceRadioFrequencies_PrFreq";
+				expression="_this setVariable ['PrFreq',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[""100"",""101"",""102"",""105"",""35"",""45"",""55"",""95""]";
+					};
+				};
+			};
+			nAttributes=3;
+		};
+	};
+	class Item7
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=5;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.3369141,0.0014381409,15.304688};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="LIEUTENANT";
+					init="doStop this;";
+					name="WAR_1_1";
+					description="Warlord Actual";
+					isPlayable=1;
+				};
+				id=713;
+				type="B_officer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33691406,0.0014381409,13.304688};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="WAR_1_4";
+					description="Warlord 2IC";
+					isPlayable=1;
+				};
+				id=714;
+				type="B_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.6630859,0.0014381409,9.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="ENG0";
+					description="Warlord Engineer";
+					isPlayable=1;
+				};
+				id=715;
+				type="B_engineer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.6630859,0.0014381409,7.3046875};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="MEDIC0";
+					description="Warlord Medic";
+					isPlayable=1;
+				};
+				id=716;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6630859,0.0014381409,11.304688};
+					angles[]={0,5.497787,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="WAR_1_3";
+					description="Warlord RTO";
+					isPlayable=1;
+				};
+				id=717;
+				type="B_Soldier_lite_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+			formation="COLUMN";
+		};
+		id=712;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="_this setGroupID [_value];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Alpha 1-2";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item8
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=6;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-4.3369141,0.0014381409,13.304688};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="HAM11TL";
+					description="Hammer 1-1 Mortar Team Lead";
+					isPlayable=1;
+				};
+				id=685;
+				type="B_support_Mort_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33691406,0.0014381409,9.3046875};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="HAM1AO";
+					description="Hammer 1 Artillery Officer";
+					isPlayable=1;
+				};
+				id=684;
+				type="B_support_Mort_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6630859,0.0014381409,7.3046875};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="HAM11G";
+					description="Hammer 1-1 Mortar Gunner";
+					isPlayable=1;
+				};
+				id=686;
+				type="B_engineer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.6630859,0.0014381409,5.3046875};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="HAM11G2";
+					description="Hammer 1-1 Mortar Gunner";
+					isPlayable=1;
+				};
+				id=687;
+				type="B_support_Mort_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.6630859,0.0014381409,3.3046875};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="Medic6";
+					description="Hammer 1-1 Team Security";
+					isPlayable=1;
+				};
+				id=688;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.3369141,0.0014381409,11.304688};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="HAM11FO";
+					description="Anvil 1 Forward Observer";
+					isPlayable=1;
+				};
+				id=689;
+				type="B_recon_JTAC_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=720;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="_this setGroupID [_value];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Alpha 2-3";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item9
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=14;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-10.336914,0.0014381409,7.3046875};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="WAR1SL";
+					description="Warlord 1";
+					isPlayable=1;
+				};
+				id=639;
+				type="B_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-6.3369141,0.0014381409,3.3046875};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="WAR11TL";
+					description="Warlord 1-1 Team Lead";
+					isPlayable=1;
+				};
+				id=641;
+				type="B_Soldier_TL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-8.3369141,0.0014381409,5.3046875};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="medic1";
+					description="Warlord 1 Medic";
+					isPlayable=1;
+				};
+				id=640;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.3369141,0.0014381409,-0.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="WAR11R";
+					description="Warlord 1-1 Rifleman";
+					isPlayable=1;
+				};
+				id=642;
+				type="B_soldier_LAT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.6630859,0.0014381409,-8.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR11AR";
+					description="Warlord 1-1 Autorifleman";
+					isPlayable=1;
+				};
+				id=643;
+				type="B_soldier_AR_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.6630859,0.0014381409,-4.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR11GR";
+					description="Warlord 1-1 Grenadier";
+					isPlayable=1;
+				};
+				id=644;
+				type="B_Soldier_GL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={11.663086,0.0014381409,-14.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR11EX";
+					description="Warlord 1-1 Sapper";
+					isPlayable=1;
+				};
+				id=645;
+				type="B_soldier_exp_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={13.663086,0.0014381409,-16.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR11CL";
+					description="Warlord 1-1 Rifleman(CLS)";
+					isPlayable=1;
+				};
+				id=646;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-4.3369141,0.0014381409,1.3046875};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="SERGEANT";
+					init="doStop this;";
+					name="WAR12TL";
+					description="Warlord 1-2 Team Lead";
+					isPlayable=1;
+				};
+				id=647;
+				type="B_Soldier_TL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.33691406,0.0014381409,-2.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					rank="CORPORAL";
+					init="doStop this;";
+					name="WAR12R";
+					description="Warlord 1-2 Rifleman";
+					isPlayable=1;
+				};
+				id=648;
+				type="B_soldier_LAT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.6630859,0.0014381409,-10.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR12AR";
+					description="Warlord 1-2 Autorifleman";
+					isPlayable=1;
+				};
+				id=649;
+				type="B_soldier_AR_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item11
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.6630859,0.0014381409,-6.6953125};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR12GR";
+					description="Warlord 1-2 Grenadier";
+					isPlayable=1;
+				};
+				id=650;
+				type="B_Soldier_GL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item12
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={9.6630859,0.0014381409,-12.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR12MK";
+					description="Warlord 1-1 Marksman";
+					isPlayable=1;
+				};
+				id=651;
+				type="B_soldier_M_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item13
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={15.663086,0.0014381409,-18.695313};
+					angles[]={0,5.4977875,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					skill=0.60000002;
+					init="doStop this;";
+					name="WAR12CL";
+					description="Warlord 1-2 Rifleman(CLS)";
+					isPlayable=1;
+				};
+				id=652;
+				type="B_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isSurrendered";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isHandcuffed";
+						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=721;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="groupID";
+				expression="_this setGroupID [_value];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Alpha 1-3";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+};
+class connections
+{
+	class LinkIDProvider
+	{
+		nextID=144;
+	};
+	class Links
+	{
+		items=144;
+		class Item0
+		{
+			linkID=0;
+			item0=131;
+			item1=48;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item1
+		{
+			linkID=1;
+			item0=131;
+			item1=49;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item2
+		{
+			linkID=2;
+			item0=131;
+			item1=51;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item3
+		{
+			linkID=3;
+			item0=131;
+			item1=52;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item4
+		{
+			linkID=4;
+			item0=131;
+			item1=53;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item5
+		{
+			linkID=5;
+			item0=131;
+			item1=54;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item6
+		{
+			linkID=6;
+			item0=131;
+			item1=55;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item7
+		{
+			linkID=7;
+			item0=131;
+			item1=57;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item8
+		{
+			linkID=8;
+			item0=131;
+			item1=58;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item9
+		{
+			linkID=9;
+			item0=131;
+			item1=59;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item10
+		{
+			linkID=10;
+			item0=131;
+			item1=60;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item11
+		{
+			linkID=11;
+			item0=131;
+			item1=61;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item12
+		{
+			linkID=12;
+			item0=131;
+			item1=62;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item13
+		{
+			linkID=13;
+			item0=131;
+			item1=63;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item14
+		{
+			linkID=14;
+			item0=131;
+			item1=64;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item15
+		{
+			linkID=15;
+			item0=131;
+			item1=65;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item16
+		{
+			linkID=16;
+			item0=131;
+			item1=66;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item17
+		{
+			linkID=17;
+			item0=131;
+			item1=67;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item18
+		{
+			linkID=18;
+			item0=131;
+			item1=68;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item19
+		{
+			linkID=19;
+			item0=131;
+			item1=69;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item20
+		{
+			linkID=20;
+			item0=131;
+			item1=70;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item21
+		{
+			linkID=21;
+			item0=131;
+			item1=72;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item22
+		{
+			linkID=22;
+			item0=131;
+			item1=73;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item23
+		{
+			linkID=23;
+			item0=131;
+			item1=74;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item24
+		{
+			linkID=24;
+			item0=131;
+			item1=75;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item25
+		{
+			linkID=25;
+			item0=131;
+			item1=76;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item26
+		{
+			linkID=26;
+			item0=131;
+			item1=77;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item27
+		{
+			linkID=27;
+			item0=131;
+			item1=78;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item28
+		{
+			linkID=28;
+			item0=131;
+			item1=79;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item29
+		{
+			linkID=29;
+			item0=131;
+			item1=80;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item30
+		{
+			linkID=30;
+			item0=131;
+			item1=81;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item31
+		{
+			linkID=31;
+			item0=131;
+			item1=82;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item32
+		{
+			linkID=32;
+			item0=131;
+			item1=83;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item33
+		{
+			linkID=33;
+			item0=131;
+			item1=84;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item34
+		{
+			linkID=34;
+			item0=131;
+			item1=85;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item35
+		{
+			linkID=35;
+			item0=131;
+			item1=87;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item36
+		{
+			linkID=36;
+			item0=131;
+			item1=88;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item37
+		{
+			linkID=37;
+			item0=131;
+			item1=89;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item38
+		{
+			linkID=38;
+			item0=131;
+			item1=90;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item39
+		{
+			linkID=39;
+			item0=131;
+			item1=91;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item40
+		{
+			linkID=40;
+			item0=131;
+			item1=92;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item41
+		{
+			linkID=41;
+			item0=131;
+			item1=93;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item42
+		{
+			linkID=42;
+			item0=131;
+			item1=94;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item43
+		{
+			linkID=43;
+			item0=131;
+			item1=95;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item44
+		{
+			linkID=44;
+			item0=131;
+			item1=96;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item45
+		{
+			linkID=45;
+			item0=131;
+			item1=97;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item46
+		{
+			linkID=46;
+			item0=131;
+			item1=98;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item47
+		{
+			linkID=47;
+			item0=131;
+			item1=99;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item48
+		{
+			linkID=48;
+			item0=131;
+			item1=100;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item49
+		{
+			linkID=49;
+			item0=131;
+			item1=102;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item50
+		{
+			linkID=50;
+			item0=131;
+			item1=103;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item51
+		{
+			linkID=51;
+			item0=131;
+			item1=104;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item52
+		{
+			linkID=52;
+			item0=131;
+			item1=105;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item53
+		{
+			linkID=53;
+			item0=131;
+			item1=106;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item54
+		{
+			linkID=54;
+			item0=131;
+			item1=107;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item55
+		{
+			linkID=55;
+			item0=131;
+			item1=127;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item56
+		{
+			linkID=56;
+			item0=131;
+			item1=128;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item57
+		{
+			linkID=57;
+			item0=109;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item58
+		{
+			linkID=58;
+			item0=110;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item59
+		{
+			linkID=59;
+			item0=111;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item60
+		{
+			linkID=60;
+			item0=112;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item61
+		{
+			linkID=61;
+			item0=113;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item62
+		{
+			linkID=62;
+			item0=114;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item63
+		{
+			linkID=63;
+			item0=115;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item64
+		{
+			linkID=64;
+			item0=116;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item65
+		{
+			linkID=65;
+			item0=119;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item66
+		{
+			linkID=66;
+			item0=120;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item67
+		{
+			linkID=67;
+			item0=121;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item68
+		{
+			linkID=68;
+			item0=122;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item69
+		{
+			linkID=69;
+			item0=123;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item70
+		{
+			linkID=70;
+			item0=124;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item71
+		{
+			linkID=71;
+			item0=125;
+			item1=131;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item72
+		{
+			linkID=72;
+			item0=711;
+			item1=636;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item73
+		{
+			linkID=73;
+			item0=711;
+			item1=637;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item74
+		{
+			linkID=74;
+			item0=711;
+			item1=713;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item75
+		{
+			linkID=75;
+			item0=711;
+			item1=714;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item76
+		{
+			linkID=76;
+			item0=711;
+			item1=717;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item77
+		{
+			linkID=77;
+			item0=711;
+			item1=716;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item78
+		{
+			linkID=78;
+			item0=711;
+			item1=715;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item79
+		{
+			linkID=79;
+			item0=711;
+			item1=639;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item80
+		{
+			linkID=80;
+			item0=711;
+			item1=640;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item81
+		{
+			linkID=81;
+			item0=711;
+			item1=641;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item82
+		{
+			linkID=82;
+			item0=711;
+			item1=642;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item83
+		{
+			linkID=83;
+			item0=711;
+			item1=643;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item84
+		{
+			linkID=84;
+			item0=711;
+			item1=644;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item85
+		{
+			linkID=85;
+			item0=711;
+			item1=645;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item86
+		{
+			linkID=86;
+			item0=711;
+			item1=646;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item87
+		{
+			linkID=87;
+			item0=711;
+			item1=647;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item88
+		{
+			linkID=88;
+			item0=711;
+			item1=648;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item89
+		{
+			linkID=89;
+			item0=711;
+			item1=649;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item90
+		{
+			linkID=90;
+			item0=711;
+			item1=650;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item91
+		{
+			linkID=91;
+			item0=711;
+			item1=651;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item92
+		{
+			linkID=92;
+			item0=711;
+			item1=652;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item93
+		{
+			linkID=93;
+			item0=711;
+			item1=654;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item94
+		{
+			linkID=94;
+			item0=711;
+			item1=655;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item95
+		{
+			linkID=95;
+			item0=711;
+			item1=656;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item96
+		{
+			linkID=96;
+			item0=711;
+			item1=657;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item97
+		{
+			linkID=97;
+			item0=711;
+			item1=658;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item98
+		{
+			linkID=98;
+			item0=711;
+			item1=659;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item99
+		{
+			linkID=99;
+			item0=711;
+			item1=660;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item100
+		{
+			linkID=100;
+			item0=711;
+			item1=661;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item101
+		{
+			linkID=101;
+			item0=711;
+			item1=662;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item102
+		{
+			linkID=102;
+			item0=711;
+			item1=663;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item103
+		{
+			linkID=103;
+			item0=711;
+			item1=664;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item104
+		{
+			linkID=104;
+			item0=711;
+			item1=665;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item105
+		{
+			linkID=105;
+			item0=711;
+			item1=666;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item106
+		{
+			linkID=106;
+			item0=711;
+			item1=667;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item107
+		{
+			linkID=107;
+			item0=711;
+			item1=669;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item108
+		{
+			linkID=108;
+			item0=711;
+			item1=670;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item109
+		{
+			linkID=109;
+			item0=711;
+			item1=671;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item110
+		{
+			linkID=110;
+			item0=711;
+			item1=672;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item111
+		{
+			linkID=111;
+			item0=711;
+			item1=673;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item112
+		{
+			linkID=112;
+			item0=711;
+			item1=674;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item113
+		{
+			linkID=113;
+			item0=711;
+			item1=675;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item114
+		{
+			linkID=114;
+			item0=711;
+			item1=676;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item115
+		{
+			linkID=115;
+			item0=711;
+			item1=677;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item116
+		{
+			linkID=116;
+			item0=711;
+			item1=678;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item117
+		{
+			linkID=117;
+			item0=711;
+			item1=679;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item118
+		{
+			linkID=118;
+			item0=711;
+			item1=680;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item119
+		{
+			linkID=119;
+			item0=711;
+			item1=681;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item120
+		{
+			linkID=120;
+			item0=711;
+			item1=682;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item121
+		{
+			linkID=121;
+			item0=711;
+			item1=684;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item122
+		{
+			linkID=122;
+			item0=711;
+			item1=685;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item123
+		{
+			linkID=123;
+			item0=711;
+			item1=686;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item124
+		{
+			linkID=124;
+			item0=711;
+			item1=687;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item125
+		{
+			linkID=125;
+			item0=711;
+			item1=688;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item126
+		{
+			linkID=126;
+			item0=711;
+			item1=689;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item127
+		{
+			linkID=127;
+			item0=711;
+			item1=709;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item128
+		{
+			linkID=128;
+			item0=711;
+			item1=710;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item129
+		{
+			linkID=129;
+			item0=691;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item130
+		{
+			linkID=130;
+			item0=692;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item131
+		{
+			linkID=131;
+			item0=693;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item132
+		{
+			linkID=132;
+			item0=694;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item133
+		{
+			linkID=133;
+			item0=695;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item134
+		{
+			linkID=134;
+			item0=696;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item135
+		{
+			linkID=135;
+			item0=697;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item136
+		{
+			linkID=136;
+			item0=698;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item137
+		{
+			linkID=137;
+			item0=701;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item138
+		{
+			linkID=138;
+			item0=702;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item139
+		{
+			linkID=139;
+			item0=703;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item140
+		{
+			linkID=140;
+			item0=704;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item141
+		{
+			linkID=141;
+			item0=705;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item142
+		{
+			linkID=142;
+			item0=706;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item143
+		{
+			linkID=143;
+			item0=707;
+			item1=711;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+	};
+};

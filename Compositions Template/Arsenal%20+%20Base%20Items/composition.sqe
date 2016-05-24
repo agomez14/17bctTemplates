@@ -1,0 +1,272 @@
+version=52;
+center[]={14788.734,17.91,16854.9};
+class items
+{
+	items=9;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-30.859375,1.5254688,-16.775391};
+			angles[]={0,3.9269907,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.60000002;
+			init="this addAction [""Virtual Vehicle Spawner"",VVS_fnc_openVVS,[""VVS_all_1"",""All""]]; this allowDamage false; ";
+		};
+		id=34;
+		type="PowGen_Big";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ace_isMedicalFacility";
+				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-2.4414063,0.60799789,6.7949219};
+			angles[]={0,0.64291996,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.60000002;
+			init="this allowDamage false; this addaction [""<t color='#ffff00'>Open Virtual Arsenal</t>"",{[""Open"",true] call BIS_fnc_arsenal}];";
+		};
+		id=35;
+		type="Land_PaperBox_open_full_F";
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-2.4638672,1.2556248,7.0273438};
+			angles[]={0,0.64291942,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.60000002;
+		};
+		id=36;
+		type="Land_CamoNet_NATO";
+	};
+	class Item3
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-3.15625,0.11867332,5.9082031};
+			angles[]={0,0.25063455,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.60000002;
+		};
+		id=37;
+		type="Land_Camping_Light_F";
+	};
+	class Item4
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-10.047852,3.9768047,13.064453};
+			angles[]={0,0.25063455,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.60000002;
+			init="this SetflagTexture ""rangerguidon.jpg""";
+			description="Zeus Game Moderator(restricted)";
+		};
+		id=38;
+		type="Flag_White_F";
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={4.5507813,3.9768047,2.5449219};
+			angles[]={0,0.25063455,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.60000002;
+			init="this SetflagTexture ""rangerguidon.jpg""";
+			description="Zeus Game Moderator(restricted)";
+		};
+		id=39;
+		type="Flag_White_F";
+	};
+	class Item6
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={22.515625,1.5254688,-13.525391};
+			angles[]={0,2.3010421,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.60000002;
+			init="this addAction [""Virtual Vehicle Spawner"",VVS_fnc_openVVS,[""VVS_all_2"",""All""]]; this allowDamage false; ";
+		};
+		id=45;
+		type="PowGen_Big";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ace_isMedicalFacility";
+				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item7
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={10.140625,3.8693314,-5.4003906};
+			angles[]={0,5.4720278,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.60000002;
+		};
+		id=46;
+		type="Land_Medevac_HQ_V1_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ace_isMedicalFacility";
+				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item8
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={11.765625,0,0.34960938};
+		};
+		id=129;
+		type="ACE_moduleAssignMedicalFacility";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ACE_moduleAssignMedicalFacility_enabled";
+				expression="_this setVariable ['enabled',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+};
+class connections
+{
+	class LinkIDProvider
+	{
+		nextID=1;
+	};
+	class Links
+	{
+		items=1;
+		class Item0
+		{
+			linkID=0;
+			item0=129;
+			item1=46;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+	};
+};

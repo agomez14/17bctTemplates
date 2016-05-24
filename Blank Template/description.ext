@@ -1,0 +1,36 @@
+// Mission template for http://17bct.enjin.com/ by Chivas
+#include "R3F_LOG\desc_include.h"
+
+author = "17th Brigade Combat Team";
+onLoadName = "Blank Template";
+loadScreen = "splash.jpg"; //replace jpg in root with same size pic of choice
+onLoadMission = "Welcome to the Sandbox!  Enjoy.";
+disabledAI = 1; // 1 turn off player AI slots
+respawn = 3; // 3 respawn at base
+respawnDelay = 5;  // 5 respawn timer
+respawnVehicleDelay = 30;  // 30 Vehicle respawn timer
+respawnDialog = 3;	// 3 Respawn menu shown
+respawnTemplatesWest[] = {"MenuPosition"};
+respawnTemplatesEast[] = {"MenuPosition"};
+respawnTemplatesGuer[] = {"MenuPosition"};
+respawnTemplatesCiv[] = {"MenuPosition"};
+respawnTemplatesVirtual[] = {};
+forceRotorLibSimulation = 0;  // 0 set to 1 to Enable to force advanced heli flight model
+
+class Header
+{
+	gameType = ZGM; // Set to proper game mode: https://community.bistudio.com/wiki/Multiplayer_Game_Types
+	minPlayers = 1; //min # of players the mission supports
+	maxPlayers = 64; //max # of players the mission supports, suggest max slots equals value
+};
+
+#include "taw_vd\dialog.hpp" // enables TAW view distance script
+#include "VVS\menu.h" // enables Virtual Vehicle Spawn script
+
+class CfgFunctions
+{
+
+	#include "taw_vd\CfgFunctions.hpp" // enables TAW view distance script menu
+	#include "VVS\Functions.h" // enables Virtual Vehicle Spawn script menu
+	
+};
